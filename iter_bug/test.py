@@ -3,7 +3,8 @@ import fib
 def test1():
     f = fib.fib()
     i = iter(f)
-    assert i.next() == 2
+
+    assert i.next() ==2
 
 def test2():
     f = fib.fib()
@@ -11,7 +12,7 @@ def test2():
     i.next()
     assert i.next() == 3
 
-def test2():
+def test3():
     f = fib.fib()
     i = iter(f)
     i.next()
